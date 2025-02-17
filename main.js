@@ -146,4 +146,6 @@ document.getElementById("bookForm").addEventListener("submit", addBook);
 document.getElementById("searchBook").addEventListener("submit", searchBooks);
 
 // Render buku saat halaman dimuat
-document.addEventListener("DOMContentLoaded", renderBooks);
+document.addEventListener("DOMContentLoaded", () => {
+  renderBooks(); // Pastikan ini dipanggil
+});
