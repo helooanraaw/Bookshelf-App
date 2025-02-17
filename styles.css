@@ -1,7 +1,6 @@
-/* General Styles */
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
   color: #e0e0e0;
   margin: 0;
   padding: 0;
@@ -9,12 +8,12 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  overflow-x: hidden; /* Mencegah scroll horizontal */
+  overflow-x: hidden; 
 }
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #3aafa9, #2b7a78);
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
   color: white;
   padding: 1.5rem;
   text-align: center;
@@ -40,27 +39,26 @@ main {
 
 /* Section */
 section {
-  width: 100%; /* Diperbaiki agar tidak overflow */
+  width: 100%;
   max-width: 850px;
-  background: linear-gradient(135deg, #34495e, #2c3e50);
+  background: linear-gradient(135deg, #434343, #000000);
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lebih terang */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   transition: transform 0.2s;
 }
 
 /* Heading */
 h2 {
-  color: #3aafa9;
+  color: #8f94fb;
   margin-top: 0;
-  border-bottom: 2px solid #3aafa9;
+  border-bottom: 2px solid #8f94fb;
   padding-bottom: 0.5rem;
   text-align: center;
 }
 
 /* Form Styling */
 form {
-  /* background: linear-gradient(135deg, #2c3e50, #34495e); */
   padding: 1.5rem;
   border-radius: 12px;
   display: flex;
@@ -83,15 +81,15 @@ input[type="number"] {
   border-radius: 8px;
   font-size: 1rem;
   width: 100%;
-  background: #2c3e50;
+  background: #434343;
   color: #e0e0e0;
 }
 
 input[type="text"]:focus,
 input[type="number"]:focus {
-  border-color: #3aafa9;
+  border-color: #8f94fb;
   outline: none;
-  box-shadow: 0 0 5px rgba(58, 175, 169, 0.5);
+  box-shadow: 0 0 5px rgba(143, 148, 251, 0.5);
 }
 
 /* Checkbox */
@@ -105,7 +103,7 @@ input[type="checkbox"] {
   appearance: none;
   width: 20px;
   height: 20px;
-  border: 2px solid #3aafa9;
+  border: 2px solid #8f94fb;
   border-radius: 5px;
   cursor: pointer;
   position: relative;
@@ -115,7 +113,7 @@ input[type="checkbox"]::before {
   content: "✔";
   position: absolute;
   font-size: 16px;
-  color: #3aafa9;
+  color: #8f94fb;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(0);
@@ -128,7 +126,7 @@ input[type="checkbox"]:checked::before {
 
 /* Tombol utama */
 button {
-  background: linear-gradient(135deg, #3aafa9, #2b7a78);
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
   color: white;
   border: none;
   padding: 0.85rem;
@@ -144,7 +142,7 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(135deg, #2b7a78, #3aafa9);
+  background: linear-gradient(135deg, #8f94fb, #4e54c8);
   transform: translateY(-3px);
 }
 
@@ -160,10 +158,10 @@ button:hover {
 
 /* Item Buku */
 [data-testid="bookItem"] {
-  background: linear-gradient(135deg, #34495e, #2c3e50);
+  background: linear-gradient(135deg, #434343, #000000);
   padding: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.25); /* Shadow lebih terang */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.25); 
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -219,7 +217,7 @@ button:hover {
   border: 1px solid #555;
   border-radius: 6px;
   font-size: 1rem;
-  background: #2c3e50;
+  background: #434343;
   color: #e0e0e0;
 }
 
